@@ -1,0 +1,173 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+
+.navbar {
+    background:hsla(266, 100%, 50%, 0.829);
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size:cover;
+    background-size: cover;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #FFA500;
+    opacity: 0.7;
+}
+
+.carousel-caption{
+    bottom: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.carousel-caption h5{
+    font-size: 50px;
+    font-weight: 500;
+}
+.carousel-caption p{
+    font-size: 35px;
+    top: 2cm;
+    color: orangered;
+
+}
+.slider-btn{
+    margin-top: 30px;
+}
+.slider-btn .btn{
+    background-color: #eb8108;
+    columns: white;
+    border-radius: 0;
+    padding: 1.5rem 2rem;
+    font-size: 1rem;
+    margin-right: 1px;
+}
+
+.slider-btn .btn{
+    background-color: #f05108;
+}
+
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+
+.feature-title {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+.background {
+    background: rgba(240, 84, 12, 0.863);
+    padding: 5em 0;
+}
+
+.team {
+    color: hsl(36, 15%, 6%);
+    padding: 150px;
+    
+}
+
+.team .card-columns {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+}
+
+.team .card {
+    background:rgb(230, 98, 11);
+    border: 3;
+}
+
+.team .card-title {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.card h4, h5{
+    font-size: 15px;
+    font-weight: 35;
+
+}
+.card P{
+    font-size: 10px;
+    color:black;
+
+}
+.page-footer {
+    background-color:white;
+    color:black;
+    padding: 60px 0 30px;
+}
+
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+
+.body{
+    background-image: url("ksta/backgroun.jpg");
+    
+
+}
+
+.book {
+        border:1px solid #e2490c;
+        background:hsla(17, 86%, 31%, 0.795);
+        border-radius: 0;
+        color:#e7800a;
+    }
+    
+    .book:hover {
+        border:1px solid #fff;
+        background:#fff;
+        color:#000;
+    }
+.table {
+        width:70%;
+    }
+    
+    th {
+        height: 50px;
+    }
+    
